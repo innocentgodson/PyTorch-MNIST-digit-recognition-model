@@ -69,3 +69,30 @@ Backpropagates errors
 
 Updates model weights
 
+# Testing Loop
+![image](https://github.com/user-attachments/assets/144f1441-16fe-4b94-adc6-fb4baf1668b3)
+
+Evaluates model on test data:
+
+Computes average loss and accuracy
+
+pred.argmax(1) picks the most likely digit class
+
+# Training Execution
+![image](https://github.com/user-attachments/assets/a61353fb-9790-4f78-b388-fa29e98e1acd)
+
+Trains the model for 5 epochs while monitoring performance.
+
+# Saving the Model
+![image](https://github.com/user-attachments/assets/746b9a82-4935-4734-ab42-e85189eda697)
+
+Saves the trained model's weights to disk.
+
+# Loading and Using the Model for Inference
+![image](https://github.com/user-attachments/assets/0e679d12-a8ef-48e0-9b9f-50daa1afc0bd)
+
+Loads the saved model.
+
+Runs inference on 10 individual images from the test set.
+
+Compares predicted and actual digits.
