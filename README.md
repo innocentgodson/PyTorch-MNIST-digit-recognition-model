@@ -41,3 +41,5 @@ Input layer: 784 features (flattened 28×28 image)
 2 hidden layers: 512 neurons each, ReLU activation
 
 Output layer: 10 neurons (for 10 digit classes)
+
+# Model Instantiation
