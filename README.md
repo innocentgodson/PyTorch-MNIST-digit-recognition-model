@@ -19,3 +19,11 @@ Converts the 28×28 grayscale images into normalized PyTorch tensors (values bet
 
 Prepares batches of data (64 images per batch) for efficient training and testing.
 
+# Sanity Check
+print("Training data size:", len(train_dataloader) * batch_size)
+print("Test data size:", len(test_dataloader) * batch_size)
+for X, y in test_dataloader:
+    print(f"Shape of X [N, C, H, W]: {X.shape}")
+    print(f"Shape of y: {y.shape} {y.dtype}")
+    break
+
