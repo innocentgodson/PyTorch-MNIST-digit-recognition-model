@@ -26,4 +26,17 @@ Confirms dataset sizes and inspects shape of image tensors.
 
 X shape: [64, 1, 28, 28] → 64 images, 1 channel, 28×28 size.
 
+# Device Selection
+![image](https://github.com/user-attachments/assets/a0ac9f02-e20f-4130-a45b-ddf97f05165b)
+Selects GPU (NVIDIA or Apple Silicon) if available, otherwise defaults to CPU.
 
+# Defining the Neural Network
+![image](https://github.com/user-attachments/assets/36e259e9-8752-493b-82cc-a0bb5bd204b4)
+
+A fully connected (dense) neural network with:
+
+Input layer: 784 features (flattened 28×28 image)
+
+2 hidden layers: 512 neurons each, ReLU activation
+
+Output layer: 10 neurons (for 10 digit classes)
