@@ -31,7 +31,7 @@ X shape: [64, 1, 28, 28] → 64 images, 1 channel, 28×28 size.
 Selects GPU (NVIDIA or Apple Silicon) if available, otherwise defaults to CPU.
 
 # Defining the Neural Network
-![image](https://github.com/user-attachments/assets/36e259e9-8752-493b-82cc-a0bb5bd204b4)
+![image](https://github.com/user-attachments/assets/c58214ac-19f7-4981-8206-5cee7d2184bb)
 
 A fully connected (dense) neural network with:
 
