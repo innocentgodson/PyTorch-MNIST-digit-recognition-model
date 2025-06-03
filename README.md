@@ -7,3 +7,5 @@ This code trains a fully connected neural network using PyTorch on the MNIST dat
 ![image](https://github.com/user-attachments/assets/3f748490-1228-4a07-8dc1-48fb8ab291d4)
 
 # Downloading and Transforming the MNIST Dataset
+
+![image](https://github.com/user-attachments/assets/47eb0517-2763-46b9-86ea-d07c42180963)
