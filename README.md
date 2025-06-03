@@ -20,14 +20,15 @@ Converts the 28×28 grayscale images into normalized PyTorch tensors (values bet
 Prepares batches of data (64 images per batch) for efficient training and testing.
 
 # Data Inspection
-![image](https://github.com/user-attachments/assets/e3a0b6e6-9758-4db2-9a84-b371cf5e0426)
+![image](https://github.com/user-attachments/assets/d5ba0cc0-f527-4bdd-b49e-36b2f168bc31)
 
 Confirms dataset sizes and inspects shape of image tensors.
 
 X shape: [64, 1, 28, 28] → 64 images, 1 channel, 28×28 size.
 
 # Device Selection
-![image](https://github.com/user-attachments/assets/a0ac9f02-e20f-4130-a45b-ddf97f05165b)
+![image](https://github.com/user-attachments/assets/bd420b3d-c0e3-4008-848a-93290fa8f994)
+
 Selects GPU (NVIDIA or Apple Silicon) if available, otherwise defaults to CPU.
 
 # Defining the Neural Network
