@@ -43,3 +43,29 @@ Input layer: 784 features (flattened 28×28 image)
 Output layer: 10 neurons (for 10 digit classes)
 
 # Model Instantiation
+![image](https://github.com/user-attachments/assets/2cfda773-567c-4c0c-89ba-f3ac8ffffd78)
+
+Creates and moves the model to the selected device.
+
+# Loss and Optimizer
+![image](https://github.com/user-attachments/assets/3414ec85-f11c-430d-a8e9-09b02c0acf2c)
+
+CrossEntropyLoss for classification.
+
+Adam optimizer for fast convergence.
+
+# Training Loop
+![image](https://github.com/user-attachments/assets/88f952f7-d77f-4e73-9d60-cff9f4360e74)
+
+Loops over each batch:
+
+Moves data to device
+
+Makes predictions
+
+Calculates loss
+
+Backpropagates errors
+
+Updates model weights
+
