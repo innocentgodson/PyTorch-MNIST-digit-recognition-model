@@ -9,3 +9,7 @@ This code trains a fully connected neural network using PyTorch on the MNIST dat
 # Downloading and Transforming the MNIST Dataset
 
 ![image](https://github.com/user-attachments/assets/47eb0517-2763-46b9-86ea-d07c42180963)
+
+Downloads the MNIST dataset (handwritten digits).
+
+Converts the 28×28 grayscale images into normalized PyTorch tensors (values between 0 and 1).
